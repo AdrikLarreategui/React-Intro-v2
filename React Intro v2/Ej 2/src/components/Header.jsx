@@ -2,8 +2,8 @@ import React from 'react'
 const Header = (props) => {
     return (
       <div className="Header">
-        <span className='Header-p'>{props.name}</span>
-        <span className='Header-p'>{props.age} años</span>
+        <span className='Header-p'>{this.props.name}</span>
+        <span className='Header-p'>{this.props.age} años</span>
       </div>
     )
   }
