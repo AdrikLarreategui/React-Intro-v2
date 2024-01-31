@@ -1,14 +1,14 @@
-import React, { Component } from "react"
+import React from "react"
 
-export default class Home extends Component {
-    render() {
-        return (
-            <div id = "home">
-                <h2>Welcome to my homepage</h2>
-                <p>Hi, I'm Adrián and I'm learning React! </p>
-            </div>
-        )
-    }
-};
+const Home = (props) => {
+    return (
+      <div className="Home">
+        <p className="Home-section">{props.section}</p>
+        <p>{props.data}</p>
+      </div>
+    )
+  }
+  
+  export default Home
 
 

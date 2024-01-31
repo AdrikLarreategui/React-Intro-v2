@@ -39,7 +39,7 @@ function App() {
   const [count, setCount] = useState(0)
 return (
   <>
-  <Person name="Adri" surname="Larrea" age = {38} />
+  <Person name= "Adri" surname="Larrea" age = {38} />
   <Person name = "John" surname= "Rotten" age = {67} />
   <Person name = "Patata" surname= "Pato" age = {3}/>
 
